@@ -1,0 +1,13 @@
+{
+  "Voting_Project/voting.sol": {
+    "__sources__": {}
+  },
+  "Voting_Project/Voting.sol": {
+    "__sources__": {
+      "Voting_Project/Voting.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract Voting{\r\n\r\n// Struct to represent a candidate\r\n    struct Candidate{\r\n        uint id;\r\n        string name;\r\n        uint VoteCount;\r\n\r\n    }\r\n    // Array dinâmico para armazenar todos os candidatos\r\n    Candidate [] public candidates;\r\n\r\n    uint public candidatesCount;\r\n\r\n}",
+        "file": "Voting_Project/Voting.sol"
+      }
+    }
+  }
+}
